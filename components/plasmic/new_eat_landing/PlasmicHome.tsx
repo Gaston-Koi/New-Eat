@@ -123,8 +123,6 @@ function PlasmicHome__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
-  const currentUser = useCurrentUser?.() || {};
-
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsic8SJnshfjSw()
   });
@@ -189,7 +187,7 @@ function PlasmicHome__RenderFunc(props: {
                             sty.h1
                           )}
                         >
-                          {"Enjoy the taste of summer."}
+                          {"Disfruta el sabor del verano"}
                         </h1>
                       </div>
                       <div
